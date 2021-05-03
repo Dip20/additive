@@ -1,0 +1,58 @@
+/*google font */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Lato&display=swap');
+body{
+  font-family: 'Lato', sans-serif;
+}
+.navbar-nav li{
+  padding: 0 10px;
+}
+.navbar-nav li a{
+  font-weight: 400;
+  font-family: 'Nanum Gothic', sans-serif;
+  font-size: 16px!important;
+}
+.fa-bars{
+  border:none!important;
+  outline: none!important;
+  /* color: #fff; */
+}
+.navbar-toggler{
+  outline: none !important;
+}
+#hero{
+  /* background: rgb(0,84,255);
+  background: -webkit-linear-gradient(left, rgba(0,84,255,1) 0%, rgba(39,79,162,1) 100%);
+  background: -o-linear-gradient(left, rgba(0,84,255,1) 0%, rgba(39,79,162,1) 100%);
+  background: linear-gradient(to right, rgba(0,84,255,1) 0%, rgba(39,79,162,1) 100%); */
+  background: rgb(0,84,255);
+  background: -webkit-linear-gradient(126deg, rgba(0,84,255,1) 0%, rgba(39,79,162,1) 100%);
+  background: -o-linear-gradient(126deg, rgba(0,84,255,1) 0%, rgba(39,79,162,1) 100%);
+  background: linear-gradient(216deg, rgba(0,84,255,1) 0%, rgba(39,79,162,1) 100%);
+  color: #fff;
+  padding-top: 5%;
+
+}
+.bottom-img{
+  width: 100%;
+  border-bottom: none;
+
+} .navbar-brand{
+  font-family: 'Dancing Script', cursive!important;
+  font-size: 38px!important;
+}
+
+.blue{
+  color: #2651A6;
+}
+.quotes{
+  font-family: 'Dancing Script', cursive!important;
+  font-size: 38px!important;
+
+}
+
+.bg-custom{
+  background: rgb(0,84,255);
+  background: -webkit-linear-gradient(126deg, rgba(0,84,255,1) 0%, rgba(39,79,162,1) 100%);
+  background: -o-linear-gradient(126deg, rgba(0,84,255,1) 0%, rgba(39,79,162,1) 100%);
+  background: linear-gradient(216deg, rgba(0,84,255,1) 0%, rgba(39,79,162,1) 100%);
+}
