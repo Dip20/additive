@@ -1,3 +1,4 @@
+
 #2646A6
 #2651A6
 #6F8ABF
@@ -9,3 +10,11 @@
 #14274e
 #394867
 #9ba4b4
+
+
+.color-primary{
+  color: #2651A6;
+}
+.color-secondary{
+  color: #06BFAD;
+}

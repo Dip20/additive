@@ -1,7 +1,9 @@
 /*google font */
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap');
 body{
   font-family: 'Lato', sans-serif;
+  background-color: rgba(243, 244, 245);
 }
 .navbar-nav li{
   padding: 0 10px;
@@ -10,44 +12,52 @@ body{
   font-weight: 400;
   font-family: 'Nanum Gothic', sans-serif;
   font-size: 16px!important;
+  color: #fff!important;
 }
+/* .navbar-nav  li a:hover{
+  border-bottom: 1px dotted #aaa;
+} */
+
 .fa-bars{
   border:none!important;
   outline: none!important;
-  /* color: #fff; */
+  color: #fff;
 }
 .navbar-toggler{
   outline: none !important;
+  border: none!important;
 }
 #hero{
-  /* background: rgb(0,84,255);
-  background: -webkit-linear-gradient(left, rgba(0,84,255,1) 0%, rgba(39,79,162,1) 100%);
-  background: -o-linear-gradient(left, rgba(0,84,255,1) 0%, rgba(39,79,162,1) 100%);
-  background: linear-gradient(to right, rgba(0,84,255,1) 0%, rgba(39,79,162,1) 100%); */
   background: rgb(0,84,255);
   background: -webkit-linear-gradient(126deg, rgba(0,84,255,1) 0%, rgba(39,79,162,1) 100%);
   background: -o-linear-gradient(126deg, rgba(0,84,255,1) 0%, rgba(39,79,162,1) 100%);
   background: linear-gradient(216deg, rgba(0,84,255,1) 0%, rgba(39,79,162,1) 100%);
   color: #fff;
-  padding-top: 5%;
+  padding-top: 9%;
 
 }
 .bottom-img{
   width: 100%;
   border-bottom: none;
+  display: block!important;
 
-} .navbar-brand{
+
+}
+
+.navbar-brand{
   font-family: 'Dancing Script', cursive!important;
   font-size: 38px!important;
+  color: #fff!important;
 }
 
-.blue{
-  color: #2651A6;
-}
 .quotes{
   font-family: 'Dancing Script', cursive!important;
   font-size: 38px!important;
+}
 
+.display-header{
+  font-family: 'Black Han Sans', sans-serif;
+  line-height: 45px!important;
 }
 
 .bg-custom{
@@ -55,4 +65,151 @@ body{
   background: -webkit-linear-gradient(126deg, rgba(0,84,255,1) 0%, rgba(39,79,162,1) 100%);
   background: -o-linear-gradient(126deg, rgba(0,84,255,1) 0%, rgba(39,79,162,1) 100%);
   background: linear-gradient(216deg, rgba(0,84,255,1) 0%, rgba(39,79,162,1) 100%);
+}
+/* goto top btn */
+.goto-top {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none!important;
+    outline: none!important;
+    background-color: #06BFAD;
+    color: white;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 80px;
+	}
+
+html {
+	scroll-behavior: smooth;
+}
+
+.icon-c .fab{
+  color: #fff;
+}
+
+footer .card{
+  background: rgb(0,84,255);
+  background: -webkit-linear-gradient(126deg, rgba(0,84,255,1) 0%, rgba(39,79,162,1) 100%)!important;
+  background: -o-linear-gradient(126deg, rgba(0,84,255,1) 0%, rgba(39,79,162,1) 100%)!important;
+  background: linear-gradient(216deg, rgba(0,84,255,1) 0%, rgba(39,79,162,1) 100%)!important;
+  color: #fff;
+}
+.white{
+  color: #fff!important;
+}
+
+/* font size */
+.size-16{
+  font-size: 16px!important;
+}
+.size-22{
+  font-size: 22px!important;
+}
+.size-24{
+  font-size: 24px!important;
+}
+.size-26{
+  font-size: 26px!important;
+}
+
+.bottom-line {
+	text-decoration-line: underline;
+	text-decoration-color: #2651A6;
+	text-decoration-style: solid;
+	text-underline-offset: 15px;
+}
+.color-primary{
+  color: #2651A6;
+}
+.color-secondary{
+  color: #14274e;
+}
+
+.text-header{
+  font-family: 'Black Han Sans', sans-serif;
+  color: #2651A6;
+}
+
+.responsive_image{
+	max-width: 150px;
+	max-height: 150px;
+}
+
+/* card1 */
+.card-Keynote1{
+  border-bottom: 4px solid #2651A6!important;
+}
+
+.card-Keynote1:hover{
+  background-color: #fff!important;
+  border-bottom: 4px solid #2651A6!important;
+  color: #2651A6!important;
+}
+
+.social_icon1{
+  font-size: 28px!important;
+  color: #2651A6!important;
+}
+.social_icon1:hover{
+  color: #06BFAD!important;
+}
+
+/* card2 */
+.card-Keynote2{
+  border-bottom: 4px solid #06BFAD!important;
+}
+
+.card-Keynote2:hover{
+  background-color: #fff!important;
+  border-bottom: 4px solid #06BFAD!important;
+  color: #06BFAD!important;
+}
+
+.social_icon1{
+  font-size: 28px!important;
+  color: #2651A6!important;
+}
+.social_icon1:hover{
+  color: #06BFAD!important;
+}
+
+/* card3 */
+.card-Keynote3{
+  border-bottom: 4px solid #f21170!important;
+}
+
+.card-Keynote3:hover{
+  background-color: #fff!important;
+  border-bottom: 4px solid #f21170!important;
+  color: #f21170!important;
+}
+
+.social_icon1{
+  font-size: 28px!important;
+  color: #2651A6!important;
+}
+.social_icon1:hover{
+  color: #06BFAD!important;
+}
+/* card4 */
+.card-Keynote4{
+  border-bottom: 4px solid #289672!important;
+}
+
+.card-Keynote4:hover{
+  background-color: #fff!important;
+  border-bottom: 4px solid #289672!important;
+  color: #289672!important;
+}
+
+.social_icon1{
+  font-size: 28px!important;
+  color: #2651A6!important;
+}
+.social_icon1:hover{
+  color: #06BFAD!important;
 }

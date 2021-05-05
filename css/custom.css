@@ -1,0 +1,45 @@
+/* smooth scrool */
+html {
+	scroll-behavior: smooth;
+	animation-delay: 5s;
+}
+
+/* custom btn */
+.btn-c,
+.btn-c:focus {
+	background-color: #2651A6;
+	color: white;
+	border: none !important;
+	outline: none !important;
+	border-radius: 12px!important;
+
+}
+
+.btn-c:hover {
+	opacity: 0.9!important;
+	color: #000!important;
+	background-color: #fff;
+	border:1px solid #2651A6!important;
+}
+.btn-ticket{
+	background-color: #2651A6!important;
+	border-radius: 12px!important;
+	border: none !important;
+	outline: none !important;
+}
+.btn-ticket:hover{
+	opacity: 0.9!important;
+	color: #000!important;
+	background-color: #fff!important;
+}
+
+
+.dropdown-menu{
+	background-color: #2651A6;
+	border: none;
+}
+.dropdown-item:hover{
+	color: #fff;
+	background-color: #2651A6;
+
+}
