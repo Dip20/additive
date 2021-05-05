@@ -43,3 +43,34 @@ html {
 	background-color: #2651A6;
 
 }
+
+.form-control:focus {
+	color: #2651A6 !important;
+	background-color: #fff !important;
+	border-color: #2651A6 !important;
+	outline: 0 !important;
+	box-shadow: none!important;
+}
+
+.Statistics .card .bg-primary{
+	background-color: #2651A6!important;
+}
+
+.Statistics .card .bg-secondary{
+	background-color: #06BFAD!important;
+}
+
+.Statistics .card .bg-success{
+	background-color: #289672!important;
+}
+
+.Statistics .card .bg-danger{
+	background-color: #f21170!important;
+}
+
+.Statistics .card:hover{
+	opacity: 0.8;
+	transform: scale(0.9);
+	transition: 1.2s;
+	transition-delay: 0.2s;
+}

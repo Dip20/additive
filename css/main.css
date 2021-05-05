@@ -213,3 +213,41 @@ footer .card{
 .social_icon1:hover{
   color: #06BFAD!important;
 }
+
+/* card pricing */
+.card-price .card-body{
+  padding-top: 20px!important;
+  /* color: #fff; */
+}
+
+.card-price .card-body li{
+  line-height: 35px;
+}
+
+.card-pricing-middle{
+  background-color: #06BFAD;
+  color: #fff;
+}
+.card-price .card-pricing-last{
+  background-color: #f21170;
+  color: #fff;
+}
+
+.card-price .card:hover{
+  transform: scale(0.9);
+  transition: 1.2s;
+  transition-delay: 0.2s;
+}
+
+.text-events{
+  font-family: 'Black Han Sans', sans-serif;
+
+}
+#support{
+  position: fixed;
+  left: 25px;
+  bottom: 5px;
+  z-index: 1;
+  background-color: #2651A6;
+
+}
