@@ -251,3 +251,13 @@ footer .card{
   background-color: #2651A6;
 
 }
+.card-6-icon{
+  border: none!important;
+  border-radius: 12px;
+}
+.card-6-icon:hover{
+  color: #06BFAD!important;
+}
+.card-6-icon .fas{
+  color: #06BFAD!important;
+}
